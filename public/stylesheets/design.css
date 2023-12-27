@@ -1,0 +1,40 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(to right, #87CEEB, #FFD700);
+}
+
+.success-container {
+    text-align: center;
+}
+
+.success-container h2 {
+    color: #fff;
+    font-size: 2em;
+}
+
+.success-container p {
+    color: #fff;
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.success-container a {
+    display: inline-block;
+    background-color: #fff;
+    color: #4caf50;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.success-container a:hover {
+    background-color: #4caf50;
+    color: #fff;
+}
